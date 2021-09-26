@@ -27,6 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+.main-container{
+  background: url(./images/un1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
 
 @keyframes App-logo-spin {
   from {
