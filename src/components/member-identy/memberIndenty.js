@@ -6,13 +6,10 @@ import {faEnvelope, faPhone , faUser } from '@fortawesome/free-solid-svg-icons';
 import './memberIndenty.css'
 
 const MemberIndenty = (props) => {
-    // console.log(props.member.name);
     const {name, country, countryCode, declared, id, Currency,Donetion,img}=props.member;
     const element = <FontAwesomeIcon icon={faUser} />
     const email = <FontAwesomeIcon icon={faEnvelope} />
     const twitter= <FontAwesomeIcon icon={faPhone} />
-    // const icon = <FontAwesomeIcon icon={faFacebook} />
-
     return (
         <div className="cards">
             <div className="card">
