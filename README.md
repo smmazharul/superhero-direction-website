@@ -1,5 +1,5 @@
 # United Nations Assembly for donation few countries 
-- [ ] Live Webiste link :  [un assembly donation](http://https://un-assembly-for-donation.netlify.app/ "un assembly donation")
+- [ ] Live Webiste link :  [un assembly donation](http://https://un-assembly-for-donation.netlify.app/)
 
 
 - [x] ** How to work this website **
