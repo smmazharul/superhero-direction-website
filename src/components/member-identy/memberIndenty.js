@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faEnvelope, faPhone , faRetweet, faTablets, faUser } from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope, faPhone , faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 import './memberIndenty.css'
