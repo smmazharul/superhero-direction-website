@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faUser } from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope, faPhone, faRetweet, faTablets, faUser } from '@fortawesome/free-solid-svg-icons';
 
 import './memberIndenty.css'
 
@@ -8,6 +8,8 @@ const MemberIndenty = (props) => {
     // console.log(props.member.name);
     const {name, country, countryCode, declared, id, Currency,Donetion,img}=props.member;
     const element = <FontAwesomeIcon icon={faUser} />
+    const email = <FontAwesomeIcon icon={faEnvelope} />
+    const twitter= <FontAwesomeIcon icon={faPhone} />
 
     return (
         <div className="cards">
@@ -22,6 +24,10 @@ const MemberIndenty = (props) => {
                 <h3>Donation: <span>${Donetion} M</span></h3>
                 <button onClick={() =>props.handleAddMember(props.member)}
                 className="btn-member"><span className="user-icon">{element}</span> Select Member</button>
+                <div className="card-bottom-icons">
+                <h2>{email} {twitter}</h2>
+                </div>
+
             </div>
         </div>
     );
